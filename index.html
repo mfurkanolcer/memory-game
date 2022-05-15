@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Memory Game
+		</title>
+		<link  rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="memory_game.js"></script>
+	</head>
+
+	<body onload="Control.createGame()">
+
+		<div  id="main" class="main">
+			<div id="control">
+				<input type="button"  class="reset_button" value="RESET" onclick="Control.createGame()"/> 
+			</div>
+		
+			<div id="score"></div>
+			<div id="game"></div>
+		</div>
+	
+	</body>
+</html>
